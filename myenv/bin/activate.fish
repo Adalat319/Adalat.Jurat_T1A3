@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/adalatjurat/Desktop/T1A3 - Terminal Application/myenv"
+set -gx VIRTUAL_ENV "/Users/adalatjurat/Desktop/Adalat.Jurat_T1A3/myenv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

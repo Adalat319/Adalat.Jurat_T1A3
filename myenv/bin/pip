@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' "/Users/adalatjurat/Desktop/T1A3 - Terminal Application/myenv/bin/python3.11" "$0" "$@"
-' '''
+#!/Users/adalatjurat/Desktop/Adalat.Jurat_T1A3/myenv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

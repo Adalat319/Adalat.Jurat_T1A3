@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/adalatjurat/Desktop/T1A3 - Terminal Application/myenv"
+VIRTUAL_ENV="/Users/adalatjurat/Desktop/Adalat.Jurat_T1A3/myenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
