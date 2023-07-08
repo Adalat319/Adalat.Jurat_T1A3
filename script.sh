@@ -4,7 +4,7 @@
 command -v python3 >/dev/null 2>&1 || { echo "Python is required but not installed. Aborting."; exit 1; }
 
 # Create and activate a virtual environment
-Python3 -m venv myenv
+python3 -m venv myenv
 
 # Check the operating system
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -26,5 +26,5 @@ fi
 pip install -r requirements.txt
 
 # Run the main.py script
-Python3 main.py
+python3 main.py
 
