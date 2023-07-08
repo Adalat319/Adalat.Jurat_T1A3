@@ -6,25 +6,17 @@ command -v python3 >/dev/null 2>&1 || { echo "Python is required but not install
 # Create and activate a virtual environment
 python3 -m venv myenv
 
-# Check the operating system
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    # macOS
-    source myenv/bin/activate
-elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
-    # Linux
-    source myenv/bin/activate
-elif [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" || "$OSTYPE" == "cygwin" ]]; then
+# Activate the virtual environment
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" || "$OSTYPE" == "cygwin" ]]; then
     # Windows
     source myenv/Scripts/activate
 else
-    echo "Unsupported operating system: $OSTYPE"
-    exit 1
+    # macOS or Linux
+    source myenv/bin/activate
 fi
 
-
 # Install dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Run the main.py script
 python3 main.py
-
