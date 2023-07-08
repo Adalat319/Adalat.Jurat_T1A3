@@ -4,7 +4,7 @@ This is a Python terminal application that helps schedule Uyghur language classe
 
 ## Presentation Video
 
-You can find a video demonstration of the application [here](insert_youtube_link).
+You can find a video demonstration of the application [here](https://youtu.be/UEU0ZHW-nBM).
 
 ## Acknowledgements
 
@@ -86,66 +86,48 @@ Tasks:
 Priority: Low
 Deadline: 4 weeks
 
-## Help Documentation
+### Installation and Usage
 
-### Installation
+To install and use the Uyghur Language Class Scheduling System, follow these steps:
 
-To install the Uyghur Language Class Scheduling System, please follow these steps:
+1. Open your terminal or command prompt.
 
-1.Clone the repository or download the project files to your local machine. You can clone the repository using the following command:
+2. Clone the repository or download the project files to your local machine. You can clone the repository using the following command:
 
-``` git clone <https://github.com/Adalat319/Adalat.Jurat_T1A3.git> ```
+   ```bash
+   git clone <https://github.com/Adalat319/Adalat.Jurat_T1A3.git>
+   ```
 
-2.Navigate to the project directory:
+3. Navigate to the project directory:
 
-   ```cd Adalat.Jurat_T1A3```
+   ```bash
+   cd Adalat.Jurat_T1A3
+   ```
 
-3.Create a virtual environment (optional but recommended) to isolate the project dependencies:
+4. Ensure that the `script.sh` file has execute permissions. If not, run the following command:
 
-   ```python3 -m venv myenv```
+   ```bash
+   chmod +x script.sh
+   ```
 
-4.Activate the virtual environment:
+5. Run the `script.sh` file using the following command:
 
-- On macOS and Linux:
+   ```bash
+   ./script.sh
+   ```
 
-     ```source myenv/bin/activate```
+   This will execute the script and automatically perform the following steps:
 
-- On Windows:
+   - Check if Python3 is installed.
+   - Create and activate a virtual environment (`myenv`).
+   - Install the project dependencies.
+   - Run the main application script (`main.py`).
 
-     ```myenv\Scripts\activate```
+6. Follow the prompts and provide the required information to interact with the application.
 
-5.Install the project dependencies:
+   - For students, enter your name, date of birth, country, language level, and primary language.
+   - For teachers, enter your name, primary language, country, preferred age group, and preferred teaching level.
 
-   ```pip install -r requirements.txt```
-
-### Usage
-
-To use the Uyghur Language Class Scheduling System, you have two options:
-
-Option 1: Using script.sh
-
-1. Ensure that the `script.sh` file has execute permissions. If not, run the following command:
-
-   ```$ chmod +x script.sh```
-
-2. Run the `script.sh` file using the following command:
-
-   ```./script.sh```
-
-Option 2: Running main.py directly
-
-1. Open a terminal or command prompt.
-
-2. Navigate to the project directory.
-
-3. Activate the virtual environment (if created).
-
-4. Run the main script using the following command:
-
-   ```python main.py```
-
-5. Follow the prompts and provide the required information to interact with the application.
-
-6. To exit the application, enter `0` when prompted to select your role.
+7. To exit the application, enter `0` when prompted to select your role.
 
 For any further assistance or questions, please contact me at <adalat.jurat@gmail.com>.
