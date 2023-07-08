@@ -86,8 +86,6 @@ Tasks:
 Priority: Low
 Deadline: 4 weeks
 
-## Help Documentation
-
 ### Installation and Usage
 
 To install and use the Uyghur Language Class Scheduling System, follow these steps:
