@@ -27,3 +27,9 @@ pip install -r requirements.txt
 
 # Run the main.py script
 Python3 main.py
+
+# Run the matching.py script
+python3 matching.py
+
+# Run the test.py script
+python3 test.py

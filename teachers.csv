@@ -1,3 +1,5 @@
-Name,Date of Birth,Country,Language Level,Primary Language
-sfdj,urdu,pakistan,7-10,"[' Basic daily communication', ' Can read', ' Can read and write']"
-slfkj,japanese,japan,5-25,[' No knowledge']
+Name,Primary Language,Country,Preferred Age Group,Preferred Teaching Level
+jane,english,New zealand,5-25,"[' No knowledge', ' Basic understanding but unable to speak', ' Basic daily communication', ' Can read', ' Can read and write']"
+ada,"uighur, english",australia,10-18,"[' Basic daily communication', ' Can read', ' Can read and write']"
+ziba,italian,italy,5-10,"[' No knowledge', ' Basic understanding but unable to speak', ' Basic daily communication']"
+ray,urdu,pakistan,5-25,"[' No knowledge', ' Basic understanding but unable to speak', ' Basic daily communication', ' Can read', ' Can read and write']"

@@ -40,11 +40,13 @@ def validate_country(country):
   
     
 
-language_levels = [" No knowledge",
-                   " Basic understanding but unable to speak",
-                   " Basic daily communication",
-                   " Can read",
-                   " Can read and write"]
+language_levels = [
+    " No knowledge",
+    " Basic understanding but unable to speak",
+    " Basic daily communication",
+    " Can read",
+    " Can read and write"
+]
 
 def validate_primary_language(primary_language):
     try:
