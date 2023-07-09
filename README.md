@@ -88,7 +88,7 @@ Deadline: 4 weeks
 
 ### Installation and Usage
 
-To install and use the Uyghur Language Class Scheduling System, follow these steps:
+To install and use the Uyghur Language Class Scheduling System, make sure you have python3 installed on your computer. Then follow these steps:
 
 1. Open your terminal or command prompt.
 
